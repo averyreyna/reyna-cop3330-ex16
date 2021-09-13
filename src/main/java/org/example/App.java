@@ -12,7 +12,7 @@ public class App
     {
         // this input asks the user for their age
         Scanner input = new Scanner(System.in);
-        System.out.println("What is your age? ");
+        System.out.print("What is your age? ");
         int age = Integer.parseInt(input.nextLine());
 
         // put the ternary operator in the output statement
